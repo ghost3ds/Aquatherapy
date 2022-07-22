@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&family=Poppins:wght@500;700&display=swap');
+
+body {
+    background-color: #162831;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.header {
+    max-width: 1296px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px 50px 15px;
+}
+
+.header__logo {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url(../images/logo.svg);
+    background-repeat: no-repeat;
+}
+
+.header__list {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    padding-left: 0;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__link__color {
+    background-color: #018ABE;
+    border-radius: 3px;
+    padding: 9px 15px;
+}
+
+.header__link__color:hover {
+    background-color: rgba(255, 255, 255, .7);
+    color: #018ABE;
+    transition: .3s;
+}
+section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.first__screen {
+    background-image: url(../images/first_screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1296px;
+    max-height: 600px;
+    margin: 0 auto;
+    padding: 136px 0 210px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.first__screen h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.first__screen h1 {
+    font-size: 64px;
+    max-width: 587px;
+    margin: 0 auto;
+}
